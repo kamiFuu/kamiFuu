@@ -1,16 +1,18 @@
-## Hi there 👋
+# Hi, I'm Thanhcam
 
-<!--
-**kamiFuu/kamiFuu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I build research data pipelines across language, education, and finance.
 
-Here are some ideas to get you started:
+I'm always interested in connecting with researchers, builders, and people exploring genuinely new ideas.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Selected systems
+
+### CorEmoLex
+Emotion and corpus pipelines for NLP research.
+
+### FPL
+Educational data pipelines for classroom research.  
+Clicker data, surveys, feature engineering, machine learning, and interpretable analysis.
+
+### Tent
+Financial data pipelines for personal quant research.  
+Structured workflows for NISA, crypto, and other practical financial experiments.
