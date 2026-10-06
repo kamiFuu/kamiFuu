@@ -1,33 +1,23 @@
 # Hi, I'm Thanh — Tin
 
-I build research software and data workflows, with a focus on making results easier to inspect, explain and reproduce.
+I develop the research software and data pipeline for FPL (FocusPoint Learning), a collaborative project studying attention and well-being in foreign-language classrooms.
 
-## FPL — classroom research
+## Published research
 
-I am responsible for the software development of FPL, a collaborative research project on attention in foreign-language classrooms. I have used ChatGPT and Claude to support programming since 2024.
+Co-author of [The impact of well-being on university students’ attention in foreign language classrooms in Japan](https://doi.org/10.1016/j.socimp.2026.100195), **Societal Impacts, 2026**.
 
-FPL brings together self-report alert clicks, researcher-defined lecture segments, observations and surveys. My current development focus is data quality, clear metric definitions and reproducible examples.
+The study combines classroom clicker self-reports, time-aligned observations, surveys and interviews. Its quantitative analysis uses XGBoost, SHAP and Pearson correlations. Physical condition had the strongest association with inattention among the variables examined (r = +0.7054), while device multiplicity showed a small association (r = +0.0312). These are findings from the collaborative study, not causal estimates.
 
-I am a co-author of [The impact of well-being on university students’ attention in foreign language classrooms in Japan](https://doi.org/10.1016/j.socimp.2026.100195), published in Societal Impacts in 2026.
+## Technical work in FPL
 
-### Inspect a concrete example
+- **Data engineering:** Python, SQL/SQLite and pandas; combining clicker, lecture structure, survey and observation data; time alignment, aggregation and feature preparation.
+- **AI and NLP:** structured feature extraction, text processing and sentence embeddings for research data.
+- **Machine learning:** Nearest Centroid classification, XGBoost training, train/validation/test handling, model evaluation and model persistence.
+- **Analysis and reporting:** SHAP-based interpretability, correlation analysis, feature analysis and research reports/dashboards.
+- **Research software:** Django/Flask services and Docker-based project organization.
 
-[**FPL alert and survey linkage example**](fpl-demo/README.md) — synthetic data, Python and SQLite, no external services.
+[Read the FPL case study](fpl/CASE_STUDY.md) for the actual research workflow, technical scope and evidence. The research code and participant data remain private.
 
-- Separate alert counts, clicker counts and mapped student counts.
-- Preserve missing survey links and report unmapped devices.
-- Check timestamp boundaries and lecture-scoped identities.
-- Run nine automated checks and inspect the [sample output](fpl-demo/example_output.json).
+## Current focus
 
-Read the [case study](fpl-demo/CASE_STUDY.md) and [development journey](fpl-demo/JOURNEY.md). This is a new AI-assisted portfolio extension; it does not reproduce the published study. Reviewing and explaining the extension is my next step.
-
-## Related project areas
-
-- **CorEmoLex:** emotion and corpus pipelines for NLP research.
-- **CODA:** tools for AI workflow orchestration and project memory.
-- **LINE translation app:** an Android prototype for translation and reply workflows.
-- **Tent:** personal experiments with financial data workflows.
-
-## Current direction
-
-I am interested in research software, data quality and data analysis work where careful validation and clear explanations matter.
+AI/ML research software, data engineering and interpretable analysis grounded in real research work.
